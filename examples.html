@@ -1,6 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <style>
+  .my-div {
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid black;
+  }
+    </style>
+    <style>
+      .my-p {
+        padding: 1px;
+        margin: 5px;
+        border: 1px solid black;
+      }
+      </style>
+      <style>
+      .my-span {
+        padding: 1px;
+        margin: 5px;
+        border: 1px solid red;
+      }
+    </style>
+    <style>
+      .my-strong {
+        padding: 1px;
+        margin: 5px;
+        border: 1px solid blue;
+      }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Block vs Inline Elements</title>
@@ -13,7 +41,14 @@
             <a href="examples.html">Examples</a>
         </nav>
     </header>
+    </style>
     <h1>Examples Demonstration</h1>
     <h2>Block Elements in Action</h2>
+    <div class="my-div">This is a block div with full width.</div>
+    <p class="my-p">This is a paragraph that starts on a new line.</p>
+    <h2>Inline Elements in Action</h2>
+    <p>Here is some text with<span class= "my-span">an inline span</span>and<a href="examples.html">an inline link</a>flowing together.</p>
+    <p>Inline elements<strong class= "my-strong">do not break the line</strong>and only take as much space as needed.</p>
+    <h2>Side-by-Side Comparison</h2>
 </body>
 </html>
