@@ -1,54 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <style>
-  .my-div {
-    padding: 20px;
-    margin: 5px;
-    border: 1px solid black;
-  }
-    </style>
-    <style>
-      .my-p {
-        padding: 1px;
-        margin: 5px;
-        border: 1px solid black;
-      }
-      </style>
-      <style>
-      .my-span {
-        padding: 1px;
-        margin: 5px;
-        border: 1px solid red;
-      }
-    </style>
-    <style>
-      .my-strong {
-        padding: 1px;
-        margin: 5px;
-        border: 1px solid blue;
-      }
-    </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Block vs Inline Elements</title>
+  <style>
+    .my-div {
+      padding: 20px;
+      margin: 5px;
+      border: 1px solid black;
+    }
+  </style>
+  <style>
+    .my-p {
+      padding: 1px;
+      margin: 5px;
+      border: 1px solid black;
+    }
+  </style>
+  <style>
+    .my-span {
+      padding: 1px;
+      margin: 5px;
+      border: 1px solid red;
+    }
+  </style>
+  <style>
+    .my-strong {
+      padding: 1px;
+      margin: 5px;
+      border: 1px solid blue;
+    }
+  </style>
+  <style>
+    .my-strong2 {
+      padding: 1px;
+      margin: 5px;
+      border: 1px solid green;
+    }
+  </style>
+  <style>
+    .my-block {
+      padding: 5px;
+      margin: 0px;
+      border: 1px solid purple;
+    }
+  </style>
+  <style>
+    .my-inline {
+      display: inline;
+      padding: 5px;
+      margin: 0px;
+      border: 1px solid orange;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block vs Inline Elements</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home |</a>
-            <a href="about.html">About |</a>
-            <a href="examples.html">Examples</a>
-        </nav>
-    </header>
-    </style>
-    <h1>Examples Demonstration</h1>
-    <h2>Block Elements in Action</h2>
-    <div class="my-div">This is a block div with full width.</div>
-    <p class="my-p">This is a paragraph that starts on a new line.</p>
-    <h2>Inline Elements in Action</h2>
-    <p>Here is some text with<span class= "my-span">an inline span</span>and<a href="examples.html">an inline link</a>flowing together.</p>
-    <p>Inline elements<strong class= "my-strong">do not break the line</strong>and only take as much space as needed.</p>
-    <h2>Side-by-Side Comparison</h2>
+  <header>
+    <nav>
+      <a href="index.html">Home |</a>
+      <a href="about.html">About |</a>
+      <a href="examples.html">Examples</a>
+    </nav>
+  </header>
+  </style>
+  <h1>Examples Demonstration</h1>
+  <h2>Block Elements in Action</h2>
+  <div class="my-div">This is a block div with full width.</div>
+  <p class="my-p">This is a paragraph that starts on a new line.</p>
+  <h2>Inline Elements in Action</h2>
+  <p>Here is some text with<span class="my-span">an inline span</span>and<span class="my-strong2"><a
+        href="examples.html">an inline link</a></span>flowing together.</p>
+  <p>Inline elements<strong class="my-strong">do not break the line</strong>and only take as much space as needed.</p>
+  <h2>Side-by-Side Comparison</h2>
+  <div class="my-block">Block 1</div>
+  <div class="my-block">Block 2</div>
+  <br>
+  Examples Include: <p class="my-inline">Item 1</p>
+  <p class="my-inline">Item 2</p>
+  <p class="my-inline">Item 3</p>
+  <h2>Practice Form</h2>
+  <label for="username">Name:</label>
+  <input type="text" name="username">
+  <br>
+  <br>
+  <label for="username">Email:</label>
+  <input type="text" name="username">
+  <br>
+  <br>
+  <section class="feedback">
+    <label for="feedback">Feedback:</label>
+    <br>
+    <textarea id="extra" name="feedback" rows="3" cols="40"></textarea>
+  </section>
+  <br>
+  <section class="role">
+    <label for="role">Role:</label>
+    <select id="role" name="role">
+      <option value="student">Student</option>
+      <option value="teacher">Teacher</option>
+      <option value="other">Other</option>
+    </select>
+    <br>
+    <br>
+    <input type="Submit" value="Submit">
+  </section>
+  <p>© 2025 Block vs Inline Elements Tutorial</p>
 </body>
+
 </html>
