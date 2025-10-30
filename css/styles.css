@@ -1,0 +1,8 @@
+body {
+    background-color: aquamarine;
+    color:blueviolet
+}
+#main-title {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
