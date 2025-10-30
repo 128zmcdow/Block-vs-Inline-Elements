@@ -6,3 +6,6 @@ body {
     text-decoration: underline;
     text-transform: uppercase;
 }
+.centered-heading {
+    text-align: center;
+}
